@@ -1,0 +1,148 @@
+/* navbar */
+.navbar-collapse{
+    /* border: 2px solid red; */
+    position: sticky;
+    /* position: sticky; */
+    /* float: right; */
+    /* margin-left: 35rem; */
+}
+
+.form .d-flex{
+    border: 2px solid black;
+}
+
+.homecards{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: -1;
+    top: 100px;
+    cursor: pointer;
+
+    /* margin-top: 20rem; */
+
+    
+}
+/* body  */
+/* home */
+
+.card{
+    /* border: 2px solid blue; */
+
+    margin-top: 20px;
+    width: 600vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    /* margin-left: 5rem; */
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+
+/* sale */
+.kuchbhi{
+    border: 2px solid black;
+    width: 100vw;
+    position: absolute;
+    /* height: 20rem; */
+    /* background-image: url('https://assets.ajio.com/cms/AJIO/WEB/desk%201.0.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* margin-left: 50rem   ; */
+    /* padding: 20px; */
+    /* margin: 0    auto; */
+    /* max-width: 600px; */
+    /* transition: ; */
+}
+
+.kuchbhi img{
+    display: flex;
+    border: 2px solid red;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    
+}
+
+/* Light Mode (Default) */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-mode header {
+    background-color: #f0f0f0;
+}
+
+.light-mode button {
+    /* background-color: white; */
+    background-color: #b3d4f4;
+    color: white;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode header {
+    background-color: #333333;
+}
+
+.dark-mode button {
+    background-color: #555555;
+    color: white;
+}
+
+/* Common Button Styles */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* auth */
+
+
+/* footer */
+
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: #fff; /* Light text */
+    padding: 20px 0;
+    text-align: left;
+}
+
+.footer h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer p, .footer ul {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+   
